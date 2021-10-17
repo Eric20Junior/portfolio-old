@@ -7,38 +7,134 @@
     <meta name="description" content="Bring Your Project/Software Applications">
     <meta name="autor" content="Eric Junior">
     <title>Eric Portfolio | Welcome</title>
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../portfolio/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+    rel="stylesheet"
+  />
 </head>
-<body>
+    <body translate="no" >
+ 
+<!-- START NAV -->
 
-    <!-- <i class='bx bx-menu'></i> -->
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
 
-    <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="index.html" class="active">Eric<span>_Jun</span>ior</a>
-                <a href="#about">About</a>
-                <a href="#'contact'">Contact</a>
-                <a href="#services">Services</a>
-                <a href="projects.html">Projects</a>
-                <a href="#home">Home</a>
-                <i class="fas fa-bars"><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></i>
-              </div>
-         </nav>
-         <div class="clr"></div>
+<!-- END NAV -->
 
-    <section id="showcase">
-        <div class="container">
-            <h1>Welcome</h1>
-            <h4>My name is Eric_Junior and I am a Software Engineer.</h4>
-                <input onclick="document.location='Projects.html'" class="button" type="button" value="View My Work" name="contact">
-        </div>
-    </section>
+<!-- START WELCOME SECTION -->
 
-<footer id="main-footer">
-    <div class="container">
-        <p>Copyright &copy; 2021 Eric Junior</p>
-    </div>
+<section id="welcome-section" class="welcome-section">
+  <h1>Hi, I am Eric Rukevwe</h1>
+  <p>A software Developer!..</p>
+</section>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">Projects</h2>
+
+  <div class="projects-grid">
+    <a
+      href="https://codepen.io/EricJunior/pen/JjyGmwb"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+
+    <a href="https://eric20junior.github.io/tamimi/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://snz04pap002files.storage.live.com/y4p0Jj5I4JGD_5dbE-LfS5YeIKhwsyWlSS6X5UtP_YZOieQOsZTBfvHyGfPhvNX_3AGIXT7uhNkBmWpffL4vD4w2RltMFucQPOgA-3oZEpFd5kHp_Un19djX769P_K-T_r2F6GawOOjzw0mLdFb8-Orlapcbqx1AsepL2aCyf3iDgpsVp5nNXJh_BHuvx9UWo6E3SiTsO3G5FcAVzGOireDU9kv0dmo9sLf1UZSIBFDHKA/2021-10-17.png?psid=1&width=523&height=295"
+        alt="project"/>
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tamimi Integration
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+  </div>
+
+  <!-- <a
+    href="#projects.html"
+    class="btn btn-show-all"
+    target="_blank"
+    >Show all<i class="fas fa-chevron-right"></i
+  ></a> -->
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    <p>How do you take your coffee?</p>
+  </div>
+  <div class="contact-links">
+    <a
+      id="profile-link"
+      href="https://github.com/Eric20Junior"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+
+    <a href="eric20junioe@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:+2348166205710" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+  <p>
+    &copy; Created By
+    <a href="#" target="_blank">Eric Junior</a>
+  </p>
 </footer>
     
 </body>
